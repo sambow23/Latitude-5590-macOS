@@ -9,6 +9,7 @@
 | Storage  | Samsung PM9A1 512GB |
 | OS  | macOS Ventura 13.7.6 |
 | Screen  | 15.6" 1920x1080 | 
+| OpenCore | 1.0.4 |
 
 ## Hardware compatibility
 

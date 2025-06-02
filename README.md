@@ -1,13 +1,36 @@
-# OpenCore-Monterey-Dell-Latitude-E5590<br>
-OpenCore Monterey Dell Latitude E5590<br>
-Spec: <br>
-CPU: i7 8650u<br>
-RAM: 16GB<br>
-SSD: Sandisk 256GB<br>
+# Dell Latitude 5590
 
-Work: <br>
-Battery<br>
-Brightness<br>
-Touchpad I2C ALPS with multitouch<br>
-Audio ALC256 with layout id 17 (Speaker and headphone ok)<br>
-Wifi AC8265<br>
+| Hardware  | |
+| ------------- | ------------- |
+| CPU  | Intel® Core™ i7-8650U |
+| RAM  | 24GB DDR4 |
+| GPU  | Intel UHD Graphics 620  |
+| Network  | Intel Wireless-AC 8275  |
+| Storage  | Samsung PM9A1 512GB |
+| OS  | macOS Ventura 13.7.6 |
+| Screen  | 15.6" 1920x1080 | 
+
+## Hardware compatibility
+
+#### What works
+- CPU power management
+- GPU acceleration and video codecs
+- Wi-Fi (AirportItlwm)
+- All USB ports
+- USB-C Video
+- Trackpad
+- Trackpoint
+- FN Keys
+- Webcam
+- Screen Brightness
+- Battery percentage
+- Sleep
+- HDMI Out
+- Internal Audio (Speakers, Headphones, Microphone)
+
+#### Untested
+- iCloud Services
+- Bluetooth (no kext installed yet)
+
+#### Not working
+- Fingerprint Sensor (no support)
